@@ -20,12 +20,16 @@ x = 64
     D D D D 
     E E E E E 
 """
-# for i in range(num):
-#     x += 1
-#     for j in range(num):
-#         if i >= j:
-#             print(chr(x), end=" ")
-#     print()
+for i in range(num):
+    x += 1
+    for j in range(num):
+        if i >= j:
+            print(chr(x), end=" ")
+    print()
+
+
+print('\n\n','=-' * 30,'\n\n')  # this is just a division code 
+
 
 """
         A 
@@ -34,14 +38,19 @@ x = 64
      G H I J 
     K L M N O 
 """
-# for i in range(num):
-#     for j in range(num):
-#         if i+j >= num-1:
-#             x += 1
-#             print(chr(x), end=" ")
-#         else:
-#             print(end=" ")
-#     print()
+x = 64
+for i in range(num):
+    for j in range(num):
+        if i+j >= num-1:
+            x += 1
+            print(chr(x), end=" ")
+        else:
+            print(end=" ")
+    print()
+
+
+print('\n\n','=-' * 30,'\n\n')  # this is just a division code 
+
 
 """
         A 
@@ -50,14 +59,19 @@ x = 64
      D D D D 
     E E E E E 
 """
-# for i in range(num):
-#     x += 1
-#     for j in range(num):
-#         if i + j >= num - 1:
-#             print(chr(x), end=" ")
-#         else:
-#             print(end=" ")
-#     print()
+x = 64
+for i in range(num):
+    x += 1
+    for j in range(num):
+        if i + j >= num - 1:
+            print(chr(x), end=" ")
+        else:
+            print(end=" ")
+    print()
+
+
+print('\n\n','=-' * 30,'\n\n')  # this is just a division code 
+
 
 """
         A 
@@ -70,12 +84,12 @@ x = 64
        M N 
         O 
 """
-# for i in range(num):
-#     x = 65 if i <= num/2 else x
-#     for j in range(num):
-#         if (i < num / 2 and (i + j) >= num - 1) or (num / 2 <= i <= j):
-#             print(chr(x), end=" ")
-#             x += 1
-#         else:
-#             print(end=" ")
-#     print()
+for i in range(num):
+    x = 65 if i <= num/2 else x
+    for j in range(num):
+        if (i < num / 2 and (i + j) >= num - 1) or (num / 2 <= i <= j):
+            print(chr(x), end=" ")
+            x += 1
+        else:
+            print(end=" ")
+    print()
